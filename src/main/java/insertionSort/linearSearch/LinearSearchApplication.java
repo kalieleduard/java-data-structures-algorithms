@@ -1,4 +1,4 @@
-package linearSearch;
+package insertionSort.linearSearch;
 
 public class LinearSearchApplication {
     public static void main(String[] args) {

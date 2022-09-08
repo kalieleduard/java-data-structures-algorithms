@@ -12,7 +12,7 @@ public class InsertionSortApplication {
 
     private static int[] insertionSort(final int[] array) {
         for (int i = 1; i < array.length; i++) {
-            int temp = array[i];
+            final int temp = array[i];
             int position = i - 1;
 
             while(position >= 0) {

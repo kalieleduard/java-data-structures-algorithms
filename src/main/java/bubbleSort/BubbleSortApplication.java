@@ -23,7 +23,7 @@ public class BubbleSortApplication {
         boolean sorted = false;
         int lastIndex = array.length - 1;
 
-        while(!sorted) {
+        while (!sorted) {
             sorted = true;
 
             for (int i = 0; i < lastIndex; i++) {
