@@ -1,6 +1,7 @@
 package recursion;
 
 public class RecursionApplication {
+
     private int index = 0;
 
     public void init(final int value) {
