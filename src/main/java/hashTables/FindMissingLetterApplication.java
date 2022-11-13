@@ -21,7 +21,7 @@ public class FindMissingLetterApplication {
             currentValues.put(i, true);
         }
 
-        for (char character : alphabetic) {
+        for (final char character : alphabetic) {
             if (!currentValues.getOrDefault(character, false)) {
                 return String.valueOf(character);
             }
