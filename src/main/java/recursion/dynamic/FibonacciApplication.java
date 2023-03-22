@@ -4,7 +4,7 @@ import java.util.Map;
 
 public class FibonacciApplication {
     public static void main(String[] args) {
-        System.out.println(fib(5, new HashMap<>()));
+        System.out.println(fib(3, new HashMap<>()));
     }
 
     private static int fib(final int n, final Map<Integer, Integer> memo) {
@@ -13,7 +13,7 @@ public class FibonacciApplication {
         }
 
         if (!memo.containsKey(n)) {
-            memo.put(n, fib(n - 2, memo) + fib(n - 1, memo));
+            memo.put(n, fib(n - 2, memo) +  fib(n - 1, memo));
         }
 
         return memo.get(n);
