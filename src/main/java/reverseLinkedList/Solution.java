@@ -19,8 +19,6 @@ class Solution {
                                 new ListNode(4,
                                         new ListNode(5)))));
         var result = solution.reverseList(linkedList);
-
-
     }
 
     public ListNode reverseList(ListNode head) {
